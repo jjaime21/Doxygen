@@ -1,3 +1,13 @@
+/**
+ * @file main.cpp
+ * @author Jose Jaime
+ * @date 2026-04-10
+ * @brief Test driver for the Employee class hierarchy
+ * 
+ * This program uses a single test function to validate 
+ * Employee, Supervisor, and Officer objects.
+ */
+
 
 #include <iostream>
 #include "Employee.h"
@@ -6,6 +16,16 @@
 
 using namespace std;
 
+
+/**
+ * Runs different tests on an Employee object or subclass
+ *
+ * @param Employee & e The Employee object to be tested
+ * @pre The Employee object must be initialized.
+ * @return void None
+ * @post The Employee's state may be modified.
+ * 
+ */
 void runEmployeeTests(Employee & e);
 
 int main() {

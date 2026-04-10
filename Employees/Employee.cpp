@@ -1,3 +1,13 @@
+/**
+ * @file Employee.cpp
+ * @author Jose Jaime
+ * @date 2026-04-10
+ * @brief Employee class
+ * 
+ * Implementation of the Employee class
+ */
+
+
 #include "Employee.h"
 #include <iostream>
 

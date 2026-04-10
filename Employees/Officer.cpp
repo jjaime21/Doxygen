@@ -1,3 +1,13 @@
+/**
+ * @file Officer.cpp
+ * @author Jose Jaime
+ * @date 2026-04-10
+ * @brief Officer class
+ * 
+ * Implementation of the Officer class
+ */
+
+
 #include "Officer.h"
 #include <iostream>
 

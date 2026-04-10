@@ -1,0 +1,63 @@
+\hypertarget{main_8cpp}{}\doxysection{main.\+cpp File Reference}
+\label{main_8cpp}\index{main.cpp@{main.cpp}}
+
+
+Test driver for the \mbox{\hyperlink{classEmployee}{Employee}} class hierarchy.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Employee.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Supervisor.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Officer.\+h\char`\"{}}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_a9ccea1912d6e2275d5612e294919d113}{run\+Employee\+Tests}} (\mbox{\hyperlink{classEmployee}{Employee}} \&e)
+\item 
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Test driver for the \mbox{\hyperlink{classEmployee}{Employee}} class hierarchy. 
+
+\begin{DoxyAuthor}{Author}
+Jose Jaime 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2026-\/04-\/10 This program uses a single test function to validate \mbox{\hyperlink{classEmployee}{Employee}}, \mbox{\hyperlink{classSupervisor}{Supervisor}}, and \mbox{\hyperlink{classOfficer}{Officer}} objects. 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a9ccea1912d6e2275d5612e294919d113}\label{main_8cpp_a9ccea1912d6e2275d5612e294919d113}} 
+\index{main.cpp@{main.cpp}!runEmployeeTests@{runEmployeeTests}}
+\index{runEmployeeTests@{runEmployeeTests}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{runEmployeeTests()}{runEmployeeTests()}}
+{\footnotesize\ttfamily void run\+Employee\+Tests (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classEmployee}{Employee}} \&}]{e }\end{DoxyParamCaption})}
+
+Runs different tests on an \mbox{\hyperlink{classEmployee}{Employee}} object or subclass
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{classEmployee}{Employee}}} & \& e The \mbox{\hyperlink{classEmployee}{Employee}} object to be tested \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \mbox{\hyperlink{classEmployee}{Employee}} object must be initialized. 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+void None 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+The \mbox{\hyperlink{classEmployee}{Employee}}\textquotesingle{}s state may be modified. 
+\end{DoxyPostcond}

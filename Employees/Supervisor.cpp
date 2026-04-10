@@ -1,3 +1,13 @@
+/**
+ * @file Supervisor.cpp
+ * @author Jose Jaime
+ * @date 2026-04-10
+ * @brief Supervisor class
+ * 
+ * Implementation of the Supervisor class
+ */
+
+
 #include "Supervisor.h"
 #include <iostream>
 
